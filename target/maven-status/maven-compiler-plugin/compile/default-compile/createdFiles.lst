@@ -1,4 +1,9 @@
 Main.class
 UserManager.class
-com\mycompany\project3\Project3.class
+ChildHealthManager$Database.class
+ChildHealthManager$NotificationService.class
+ChildHealthManager.class
 User.class
+ChildHealthManager$ChildHealthData.class
+ChildReport.class
+com\mycompany\project3\Project3.class

@@ -5,6 +5,9 @@ Activities: jghg
 Additional Notes: hjhg
 ---------------------------------------------------------------------------------
 
+child
+First Name: Ahmad, Last Name: Youssof, ID:1111155289, Gender: Boy, Birth Date: 12/8/2023, Email: Mom@gmail.com, Phone: 0555555555, Allergy Information: all types of nuts, Chronic Diseases: nothing, General Notes: nothing, Password: ChildAhmad
+---------------------------------------------------------------------------------
 Teacher
 First Name: Noha, Last Name: Mohammed, ID:1155889966, Gender: Girl, Birth Date: 7/11/1997, Email: Noha@gmail.com, Phone: 0555442255, Role: Teacher, Status: Active, Password: TeacherNoha
 ---------------------------------------------------------------------------------

@@ -191,6 +191,11 @@ public class Main {
         System.out.println("Parent Message: " + result);
         System.out.println("Teacher Last Notification: " + ns.getLastNotification());
         
+                
+        // -----------------------Submit daily/weekly report about the child-----------------
+                ChildReport.writeReport();
+
+        
         in.close();
     }
     
