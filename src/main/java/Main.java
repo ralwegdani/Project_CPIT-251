@@ -178,6 +178,18 @@ public class Main {
                     System.out.println("Invalid choice.");
             }
         }
+        // nada code
+        ChildHealthManager.Database db = new ChildHealthManager.Database();
+        ChildHealthManager.NotificationService ns = new ChildHealthManager.NotificationService();
+        ChildHealthManager managerr = new ChildHealthManager(db, ns);
+        
+        ChildHealthManager.ChildHealthData data = new ChildHealthManager.ChildHealthData("child-001", "Has peanut allergy");
+        
+        String result = managerr.addHealthInfo(data);
+
+        
+        System.out.println("Parent Message: " + result);
+        System.out.println("Teacher Last Notification: " + ns.getLastNotification());
         
         in.close();
     }
